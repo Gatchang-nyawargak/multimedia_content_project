@@ -37,7 +37,7 @@ body {
   .container {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    
   }
   
   .heading {
@@ -58,11 +58,14 @@ body {
   
   .btn {
     padding: 12px 22px;
-    background-color: #D51384;
+    background-color:#000E30;
     color: white;
-    border: none;
-    border-radius: 60px;
+    border: solid #D51384 ;
+    font-weight: bold;
+    font-size: medium;
   }
+  h2{color: #D51384;
+  font-size: 50px;}
   
   /* Media Queries */
   
