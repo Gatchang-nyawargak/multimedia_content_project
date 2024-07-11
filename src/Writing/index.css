@@ -1,0 +1,179 @@
+.blog-post {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(211, 24, 148, 0.5);
+    border:solid 4px #d51384;
+
+  }
+  .trevor-book{
+    display: flex;
+    gap: 15px;
+  }
+  .book-text{
+    font-style: italic;
+    margin-top: 6%;
+    text-align: start;
+    font-size: larger;  
+  }
+  .profile{
+    display: flex;
+    gap: 15px;
+  }
+  .profile-text{
+    font-style: italic;
+    margin-top: 10%;
+    text-align: start;
+    font-size: larger;
+  }
+ 
+  .heading{
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+  }
+  
+  .intro{
+    text-align: start;
+    color: black;
+
+  }
+  .blog-post-h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    text-transform: uppercase;
+  }
+  .blog-post-h3 {
+    font-size: 1.8rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .relevance{
+    display: flex;
+  }
+  .social-issues {
+    background-color: #0761a8;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    flex: 1;
+  }
+  .social-text{
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+    font-weight: bold;
+  }
+  .political-text{
+    font-weight: bold;
+  }
+  .economic-text{
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+    font-weight: bold;
+  }
+ 
+  .political-implications {
+    background-color: #d51384;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    flex: 1;
+    color: #ccc;
+
+  }
+  .economic-perspectives {
+    background-color: #0761a8;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    color: #ccc;
+
+  }
+  .social-heading{
+    color: white;
+  }
+  .conclusion{
+  text-align: start;
+  content: open-quote;
+  color: #333;
+  font-size: 24px;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  }
+  .conclusion-heading{
+    text-align: center;
+  }
+  .political-text{
+    color: white;
+  }
+  .blog-post p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 0.8rem;
+    color: black;
+  }
+  .noah-quote-social{  
+    padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-left: 10px solid #d51384;
+  quotes: "\201C""\201D""\2018""\2019";
+  }
+  .noah-quote-exposure{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-right: 10px solid #0761a8;
+    quotes: "\201C""\201D""\2018""\2019";
+
+  }
+  .noah-quote-me{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-left: 10px solid #d51384;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  .read-more{
+    background-color: #0761a8;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: '5px';
+    cursor: pointer;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 668px){
+    .blog-post {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .trevor-pic{
+      width: 80;
+      height: 80;
+    }
+
+  }
+  
+ 
+
+
+
