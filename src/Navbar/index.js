@@ -1,10 +1,8 @@
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 import './index.css';
 import pic2 from '../assets/pic2.png';
-import LandingPage from '../LandingPage';
-import Videos from '../Videos';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
