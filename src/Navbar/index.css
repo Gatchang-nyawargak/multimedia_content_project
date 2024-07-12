@@ -2,25 +2,31 @@
     display: flex;
     width: 100%;
     gap: 60px;
-    padding-top: 10px;
+    
     justify-content: space-between;
     align-items: center;
     padding-right: 50px;
     background-color: #000E30;
     font-size: 20px;
+    
   }
   .nav {
     display: flex;
+    padding-top: 49px;
+   
+
   }
   .navbar-container {
     display: flex;
+     
     list-style-type: none;
-    gap: 5rem;
+    gap: 8rem;
     font-weight: bold;
   }
   .navbar-container a {
     color: white;
     text-decoration: none;
+  
   }
   .navbar-container a:hover {
     color: #D51384;
@@ -45,7 +51,7 @@
     opacity: 0;
   }
   #logo{
-    width: 130px;
+    width: 300px;
   }
    .hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(10px, -5px);

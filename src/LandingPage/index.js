@@ -1,7 +1,7 @@
 import pic1 from "../assets/pic1.jpg"
 import "./index.css"
 
-function LandingPage(){
+ function LandingPage(){
     return(
         <div className="container">
             <div className="heading">
@@ -14,7 +14,7 @@ function LandingPage(){
             <button className="btn">Get Started</button>
             </div>
             <div>
-              <img src= {pic1} alt="Networking image"  className="image"/>
+              <img src= {pic1} alt="Networking image"  className="image" />
             </div>
 
         </div>
