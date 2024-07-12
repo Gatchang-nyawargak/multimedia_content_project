@@ -7,7 +7,7 @@ function WargaPortfolio(){
             <div className="title">
             <div className="introduction"><img src="/Images/Gatchang.jpg" className="pictures" alt="Gatchang"/>
             <div className="education">
-                <h2>Nyawargak Gatchang</h2>
+                <h2>Warga Gatchang</h2>
                 
            
                 

@@ -4,15 +4,16 @@
     box-shadow: 0 4px 8px rgba(20, 14, 14, 0.5); 
     transition: box-shadow 0.3s ease;
     max-width: 40%;
-    background: linear-gradient(transparent,#D51384)
+    background: linear-gradient(transparent,#D51384);
+    gap: 100px;
 
 }
 .details:hover {
     transform: scale(1.05);
   }
 .pictures{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border: none;
     border-radius: 20px;
     position: relative;

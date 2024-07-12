@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './index.css';
 import pic2 from '../assets/pic2.png';
 
+
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {

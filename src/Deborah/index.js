@@ -13,7 +13,7 @@ function DeborahPortfolio(){
                 
                 <div className="contact">
                 <h2><b>Contacts</b></h2>
-                    <p id="contact"><b>email:</b>     nyawargakgatchang@gmail.com
+                    <p id="contact"><b>email:</b>     deboracherotich@gmail.com
              <br></br>
              <b>LinkedIn:</b>    Deborah Cherotich
              <br></br>

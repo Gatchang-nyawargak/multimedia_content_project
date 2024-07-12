@@ -1,11 +1,13 @@
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import LandingPage from './LandingPage';
+import Podcast from './Podcast'
 import Videos from './Videos';
 import OurPortFolio from './Portfolio';
 import BlogPost from './Writing'
+
+
 function App() {
   return (
     <Router>
@@ -15,13 +17,15 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/portfolio" element={< OurPortFolio/>} />
         <Route path="/writing" element={< BlogPost/>} />
-        
-
-      </Routes>
+        <Route path="/podcast" element={<Podcast/>} />
+        </Routes>
+      
     </Router>
   );
 }
+
 export default App
+
 
 
 

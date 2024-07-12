@@ -13,7 +13,7 @@ function FavourPortfolio(){
                 
                 <div className="contact">
                 <h2><b>Contacts</b></h2>
-                    <p id="contact"><b>email:</b>     nyawargakgatchang@gmail.com
+                    <p id="contact"><b>email:</b>     susanfavour@gmail.com
              <br></br>
              <b>LinkedIn:</b>    Susan Favour
              <br></br>

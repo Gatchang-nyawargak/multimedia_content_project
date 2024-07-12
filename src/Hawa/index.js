@@ -13,7 +13,7 @@ function HawaPortfolio(){
                 
                 <div className="contact">
                 <h2><b>Contacts</b></h2>
-                    <p id="contact"><b>email:</b>     nyawargakgatchang@gmail.com
+                    <p id="contact"><b>email:</b>     hawamajid@gmail.com
              <br></br>
              <b>LinkedIn:</b>    Hawa Majid
              <br></br>

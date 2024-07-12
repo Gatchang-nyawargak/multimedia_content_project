@@ -5,15 +5,15 @@ function NancyPortfolio(){
     return(
         <div className="details">
             <div className="title">
-            <div className="introduction"><img src="/Images/Nancy.jpg" className="pictures" alt="Nancy"/>
+            <div className="introduction"><img src="/Images/Nancy.jpg" className="nancy" alt="Nancy"/>
             <div className="education">
-                <h2>Hawa Majid</h2>
+                <h2>Nancy Wainaina</h2>
                 
            
                 
                 <div className="contact">
                 <h2><b>Contacts</b></h2>
-                    <p id="contact"><b>email:</b>     nyawargakgatchang@gmail.com
+                    <p id="contact"><b>email:</b>     nancywainaina@gmail.com
              <br></br>
              <b>LinkedIn:</b>    Nancy Wainaina
              <br></br>
