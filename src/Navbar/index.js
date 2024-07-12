@@ -21,7 +21,7 @@ function Navbar() {
         <ul className={`navbar-container ${isMenuOpen ? 'active' : ''}`}>
           <li><a href={LandingPage}>Home</a></li>
           <li><a href="#">Video</a></li>
-          <li><a href="#">Writting</a></li>
+          <li><a href="#">Writing</a></li>
           <li><a href="#">Podcast</a></li>
           <li><a href="#">Portfolio</a></li>
         </ul>

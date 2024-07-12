@@ -70,17 +70,18 @@ body {
   @media (max-width: 576px) {
     .heading {
       font-size: 20px;
-      margin-top: 50px;
+      margin-top: 30px;
+      padding-left: 5%;
     }
   
     .paragraph {
-      font-size: 12px;
+      font-size: 10px;
     }
   
     .image {
       width: 100%;
       height: auto;
-      margin-top: 50px;
+      margin-top: 30px;
     }
   }
   
@@ -88,25 +89,25 @@ body {
   @media (min-width: 576px) and (max-width: 768px) {
     .heading {
       font-size: 20px;
-      margin-top: 50px;
+      margin-top: 30px;
     }
   
     .paragraph {
-      font-size: 12px;
+      font-size: 10px;
     }
   
     .image {
       width: 100%;
       height: auto;
-      margin-top: 70px;
+      margin-top: 30px;
     }
   }
   
   /* Medium Devices (Desktops) */
   @media (min-width: 768px) and (max-width: 992px) {
     .heading {
-      font-size: 22px;
-      margin-top: 180px;
+      font-size: 20px;
+      margin-top: 30px;
     }
   
     .paragraph {
@@ -125,6 +126,7 @@ body {
     .heading {
       font-size: 30px;
       margin-top: 200px;
+      padding-left: 5%;
     }
   
     .paragraph {
