@@ -42,3 +42,7 @@ body {
     font-size: medium;
    
   }
+  #buttons {
+    display: flex;
+    gap: 30px;
+  }

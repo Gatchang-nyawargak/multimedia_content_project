@@ -11,7 +11,6 @@ function OurPortFolio(){
         <div className='portfolios'>
     <WargaPortfolio/>
     <NancyPortfolio/>
-
     <HawaPortfolio/>
     <FavourPortfolio/>
     <DeborahPortfolio/>
