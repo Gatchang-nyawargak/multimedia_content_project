@@ -1,0 +1,91 @@
+body{
+    background-color: #000E30;
+}
+.nav {
+    color: #fff; 
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .nav-link {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    padding: 0.5rem 1rem; 
+    border-radius: 5px; 
+    transition: all 0.3s ease-in-out; 
+  }
+  
+  .nav-link:hover {
+    
+    color: #fff; 
+  }
+  
+  .nav-link:active {
+    
+    color: #fff; 
+  }
+  .podcast-section{
+    gap: 30px;
+    margin-left: 150px;
+    /* padding-bottom: 300px; */
+    line-height: 1.2; 
+
+}
+.real{
+    border: 3px solid;
+    padding: 15px;
+    color: #fff;
+    border-color: #D51384;
+    width: 100px;
+    margin-left: 250px;
+   
+}
+.vivo{
+font-size: 60px;
+color: #fff;
+margin-left: 100px;
+
+}
+.podcast{
+    font-size: 250px;
+    padding-bottom: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #D51384;
+}
+.pod{
+    color: #D51384;
+}
+.main{
+    display: flex;
+    margin-left: 80px;
+    gap: 80px;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2rem;
+}
+.mike{
+    width: 600px;
+    height: 750px;
+
+}
+footer{
+    text-align: center;
+    color: #D51384;
+    
+
+}
+.play{
+    margin-left: 100px;
+    font-size: 50px;
+    padding-bottom: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #D51384;
+
+ 
+
+}

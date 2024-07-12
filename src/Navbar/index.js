@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './index.css';
-import pic2 from '../assets/pic2.png'
-import LandingPage from '../LandingPage';
+import pic2 from '../assets/pic2.png';
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
@@ -11,7 +11,7 @@ function Navbar() {
     <div className='container'>
       <div className="navbar">
         <div className="nav">
-        <img  src={pic2} alt="logo" id="logo" />
+          <img src={pic2} alt="logo" id="logo" />
         </div>
         <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
           <span></span>
@@ -19,11 +19,11 @@ function Navbar() {
           <span></span>
         </div>
         <ul className={`navbar-container ${isMenuOpen ? 'active' : ''}`}>
-          <li><a href={LandingPage}>Home</a></li>
-          <li><a href="#">Video</a></li>
-          <li><a href="#">Writting</a></li>
-          <li><a href="#">Podcast</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><Link to="/" className="nav-link">Home</Link></li>
+          <li><Link to="/videos" className="nav-link">Video</Link></li>
+          <li><Link to="/writing" className="nav-link">Writing</Link></li>
+          <li><Link to="/podcast" className="nav-link">Podcast</Link></li>
+          <li><Link to="/portfolio" className="nav-link">Portfolio</Link></li>
         </ul>
       </div>
     </div>
