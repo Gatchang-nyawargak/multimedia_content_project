@@ -6,6 +6,7 @@ import Podcast from './Podcast'
 import Videos from './Videos';
 import OurPortFolio from './Portfolio';
 import BlogPost from './Writing'
+import Apex from './Case-study';
 
 
 function App() {
@@ -18,7 +19,12 @@ function App() {
         <Route path="/portfolio" element={< OurPortFolio/>} />
         <Route path="/writing" element={< BlogPost/>} />
         <Route path="/podcast" element={<Podcast/>} />
+        {/* <Route path='/case-study' element={<Apex/>}/> */}
+        
         </Routes>
+       
+     
+       
       
     </Router>
   );

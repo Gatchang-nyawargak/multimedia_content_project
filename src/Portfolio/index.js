@@ -4,6 +4,7 @@ import NancyPortfolio from '../Nancy';
 import WargaPortfolio from '../Warga';
 import DeborahPortfolio from '../Deborah';
 import './index.css'
+import React from 'react';
 
 
 function OurPortFolio(){

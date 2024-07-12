@@ -1,6 +1,6 @@
 import pic1 from "../assets/pic1.jpg"
 import "./index.css"
-
+import React from "react"
 function LandingPage(){
     return(
         <div className="container">
