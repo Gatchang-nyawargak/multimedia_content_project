@@ -1,9 +1,7 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; 
 import './index.css';
 import pic2 from '../assets/pic2.png';
-
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,6 +26,7 @@ function Navbar() {
           <li><Link to="/writing" className="nav-link">Writing</Link></li>
           <li><Link to="/podcast" className="nav-link">Podcast</Link></li>
           <li><Link to="/portfolio" className="nav-link">Portfolio</Link></li>
+          <li><Link to="/writing-more" className="nav-link">Articles</Link></li> {/* New Link Added */}
         </ul>
       </div>
     </div>
