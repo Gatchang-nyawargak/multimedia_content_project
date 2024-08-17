@@ -10,9 +10,8 @@ return(
             </div>
             <div>
                 <p className='podcast-section'> <span className='podcast'>Podcast </span> <br></br> 
-                <span className='vivo'> WITH VIVOSPARKS</span><br></br> <br></br> <span className='real'>REAL TALK</span> <br/> <br/> <br/> <br/> <br/>
-                 
-                 <span className='play'>COMING SOON</span></p>
+                 <span className='play'>Freedom in Relationships: Beyond Tradition and Constrain</span></p>
+                 <p className='play'>Episode one</p>
             </div>
 
           </div>
