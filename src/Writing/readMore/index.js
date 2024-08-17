@@ -15,7 +15,7 @@ const BlogMore = () => {
       
       <div className='trevor-book'>
         <div>
-          <img src="/images/trevor-book.jpg" width={300} height={400} className='trevor-pic' alt="Trevor Noah Book"/>
+          <img src="/images/trevor-book.jpg" width={300} height={400} className='trevor-pics' alt="Trevor Noah Book"/>
         </div>
 
         <div className='book-text'>
