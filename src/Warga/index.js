@@ -33,14 +33,16 @@ function WargaPortfolio(){
         <div id="skills">
              <div className="personal-statement">
             <h2><b>Personal Statement</b></h2>
-            <p>Growing up in a refugee camp has profoundly impacted Nyawargak’s 
-                journey as a software developer. While living there, Nyawargak
-                 witnessed the psychological challenges that children face, including 
-                 depression and social withdrawal due to trauma. This experience has
-                  strengthened Nyawargak’s dedication to using technology for their 
-                  well-being. Nyawargak is focused on developing digital tools that 
-                  provide accessible therapeutic support, raise awarene
-                ss about mental health, and enhance community resilience.</p></div>
+            <p>Renewable energy technologies have emerged as vital solutions addressing
+                 critical challenges linked to fossil fuels over the years. Nyawargak is
+                  inspired by the deployment of solar and wind systems in remote, underserved 
+                  areas. As a software developer, she is deeply intrigued by the transformative 
+                  potential of advanced software solutions in optimizing energy systems and reducing 
+                  environmental footprints. Nyawargak envisions a future where global energy paradigms
+                  are transformed, driving significant environmental conservation efforts and fostering
+                  a resilient and eco-friendly energy infrastructure.
+
+</p></div>
                 <div className="skills">
 
 <h2>Skills</h2>
